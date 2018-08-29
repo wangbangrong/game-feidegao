@@ -1,0 +1,32 @@
+{
+	"resources":
+		[
+			{"name":"startBg_png","type":"image","url":"firstPage/startBg.png"},
+			{"name":"playDefault_png","type":"image","url":"firstPage/playDefault.png"},
+
+			{"name":"topBg_png","type":"image","url":"playPage/bg/topBg.png"},
+			{"name":"bottomBg_png","type":"image","url":"playPage/bg/bottomBg.png"},
+
+			{"name":"blueCloud_png","type":"image","url":"playPage/cloud/blueCloud.png"},
+
+			{"name":"drawboard_png","type":"image","url":"playPage/drawboard/drawboard.png"},
+
+			{"name":"bl_png","type":"image","url":"playPage/human/bl.png"},
+			{"name":"br_png","type":"image","url":"playPage/human/br.png"},
+			{"name":"tl_png","type":"image","url":"playPage/human/tl.png"},
+			{"name":"tr_png","type":"image","url":"playPage/human/tr.png"},
+			{"name":"star_png","type":"image","url":"playPage/star/star.png"},
+			{"name":"clock_png","type":"image","url":"playPage/clock/clock.png"},
+			{"name":"UFO_png","type":"image","url":"playPage/UFO/UFO.png"} ,
+			{"name":"overBg_png","type":"image","url":"overPage/bg/gameOverBg.png"},
+			{"name":"replayBtn_png","type":"image","url":"overPage/button/btn_replay.png"},
+			{"name":"number","type":"sheet","url":"overPage/number/number.json"}
+		
+
+		],
+	"groups":
+		[
+			{"name":"firstPage","keys":"startBg_png,playDefault_png"},
+			{"name":"playPage","keys":"blueCloud_png,UFO_png,clock_png,number,overBg_png,replayBtn_png,star_png,topBg_png,bottomBg_png,drawboard_png,bl_png,br_png,tl_png,tr_png"}
+		]
+	}
