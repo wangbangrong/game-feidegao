@@ -3,9 +3,8 @@
 ------
 
 玩法简介：移动端可以通过手指触屏控制人物左右方向。PC端可以通过鼠标拖动控制人物左右方向。
-
-
 工程命令：  cnpm install 下载依赖 npm run dev 本地运行 npm run build 打包
+图片来源主要来源：gameopenart.org
 
 ------
 
