@@ -92,10 +92,7 @@ class OverPage extends AbstractPage {
     public destroy(): Promise<any> {
         this.removeEvent();
         this.removeEl();
-        let p = new Promise(function (res, rej) {
-            res();
-        });
-        return p;
+        return Promise.resolve();
     }
 
     public start(): Promise<any> {

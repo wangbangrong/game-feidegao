@@ -5,6 +5,6 @@ module.exports = {
         publicPath : '/'
     },
     build : {
-        publicPath : '/'
+        publicPath : '/egret/feidegao/'
     }    
 };

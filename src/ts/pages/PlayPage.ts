@@ -168,10 +168,7 @@ class PlayPage extends AbstractPage {
         //定时生成ufo
         this.createUFO(10000);
 
-        let p = new Promise(function (res, rej) {
-            res();
-        });
-        return p;
+        return Promise.resolve();
     }
 
     private UFOMoved(): void {
@@ -330,13 +327,8 @@ class PlayPage extends AbstractPage {
      * 销毁 
      */
     public destroy(): Promise<any> {
-
         this.removeEl();
-
-        let p = new Promise(function (res, rej) {
-            res();
-        });
-        return p;
+        return Promise.resolve();
     }
 }
 

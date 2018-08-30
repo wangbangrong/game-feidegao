@@ -21,7 +21,7 @@ abstract class AbstractPage extends egret.DisplayObjectContainer {
         this.container.addChild(this);
     }
 
-    public getContainer():egret.DisplayObjectContainer{
+    public getContainer(): egret.DisplayObjectContainer {
         return this.container;
     }
 
@@ -33,10 +33,10 @@ abstract class AbstractPage extends egret.DisplayObjectContainer {
             this.parent.removeChild(this);
     }
 
-    //当页面对象要进行异步请求时，可以使用await async
+    //当页面对象要进行异步操作时，可以使用await async
     abstract start(): Promise<any>;
 
-    //当页面对象要进行异步请求时，可以使用await async
+    //当页面对象要进行异步操作时，可以使用await async
     abstract destroy(): Promise<any>;
 }
 

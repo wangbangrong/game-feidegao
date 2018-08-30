@@ -56,7 +56,7 @@ class StartPage extends AbstractPage {
         this.playBtn.texture = this.textureDefault;
     }
 
-  
+
     public removeEvent() {
         this.playBtn.removeEventListener(egret.TouchEvent.TOUCH_END, this.btnTouchEnd, this);
     }
@@ -65,21 +65,13 @@ class StartPage extends AbstractPage {
         this.addToContainer();
         this.addChild(this.bg);
         this.addChild(this.playBtn);
-
-        let p = new Promise(function (res, rej) {
-            res();
-        });
-        return p;
+        return Promise.resolve();
     }
 
     public destroy(): Promise<any> {
         this.removeEvent();
         this.removeEl();
-
-        let p = new Promise(function (res, rej) {
-            res();
-        });
-        return p;
+        return Promise.resolve();
     }
 }
 
